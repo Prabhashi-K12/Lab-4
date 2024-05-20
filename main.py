@@ -14,6 +14,8 @@ def main():
     # create a doctor
     doctor1 = Doctor("Dr. Julian", "Dermatology", "D001")
     doctor1.add_appointment("2024-06-01, 10:00 AM")
+    doctor2 = Doctor("Dr. Madusha","Sergeon","D002")
+    doctor2.add_appointment("2024-07-23, 02:00 PM")
     
 
     #create a appointment

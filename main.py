@@ -7,6 +7,9 @@ def main():
     patient1 = Patient("Gayani", 60, "P001")
     patient1.add_medical_record("2024-05-11: Consultation")
     patient1.add_medical_record("2024-04-20: Checkup")
+    patient2 = Patient("Chandika Sandun", 23,"P002")
+    patient2 = add_medical_record("2024-05-19: Surgery")
+    Patient2 = add_medical_record("2024-03-07: Scan")
 
     # create a doctor
     doctor1 = Doctor("Dr. Julian", "Dermatology", "D001")

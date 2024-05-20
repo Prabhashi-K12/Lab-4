@@ -9,18 +9,18 @@ def main():
     patient1.add_medical_record("2024-04-20: Checkup")
     patient2 = Patient("Chandika Sandun", 23,"P002")
     patient2.add_medical_record("2024-05-19: Surgery")
-    Patient2.add_medical_record("2024-03-07: Scan")
+    patient2.add_medical_record("2024-03-07: Scan")
 
     # create a doctor
     doctor1 = Doctor("Dr. Julian", "Dermatology", "D001")
     doctor1.add_appointment("2024-06-01, 10:00 AM")
-    doctor2 = Doctor("Dr. Madusha","Sergeon","D002")
-    doctor2.add_appointment("2024-07-23, 02:00 PM")
+    doctor2 = Doctor("Dr. Madusha","Surgeon","D002")
+    doctor2.add_appointment("2024-05-23, 02:00 PM")
     
 
-    #create a appointment
+    #create an appointment
     appointment1 = Appointment(patient1,doctor1,"2024-05-28","11:00 PM")
-    appointment2 = Appointment(patient2,doctor2,"2024-04-10", "10:00 AM")
+    appointment2 = Appointment(patient2,doctor2,"2024-06-10", "10:00 AM")
 
     # print patient and doctor details
     print(patient1)

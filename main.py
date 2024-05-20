@@ -20,11 +20,15 @@ def main():
 
     #create a appointment
     appointment1 = Appointment(patient1,doctor1,"2024-05-28","11:00 PM")
+    appointment2 = Appointment(patient2,doctor2,"2024-04-10", "10:00 AM")
 
     # print patient and doctor details
     print(patient1)
     print(doctor1)
     print(appointment1)
+    print(patient2)
+    print(doctor2)
+    print(appointment2)
 
 if __name__ == "__main__":
     main()
